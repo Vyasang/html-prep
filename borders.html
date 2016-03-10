@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border, Margin, Padding</title>
+	<style type="text/css">
+		p {
+			//border: solid #CE04A5;
+			border-style: solid;
+	  		border-color: green;
+		}
+		p.one {
+	  		border-width: 2px;
+	  	}
+		p.two {
+	  		border-width: thick;
+	  	}
+
+		p.three {
+	  		border-width: 1px 4px 12px 4px;
+	  	}
+
+	  	p.four {
+	  		border-width: 8px;
+
+	  		border-top-style: dotted;
+	  		border-left-style: solid;
+	  		border-right-style: ridge;
+	  		border-bottom-style: dashed;
+
+	  		border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+	  		/*
+			border-top-color: #bbccdd;
+			border-right-color: #bbccdd;
+			border-bottom-color: #bbccdd;
+			border-left-color: #bbccdd;
+			*/
+	  	}
+
+	  	p.five {
+	  		width: 250px;
+			border: 3px dotted #0088dd;
+	  	}
+
+	  	div.example1 {
+	  		border-style: solid;
+			width: 275px;
+			//border: 2px solid #0088dd;
+			text-align: justify;
+		}
+		
+		div.example2 {
+			border-style: solid;
+			width: 275px;
+  			padding: 10px;
+  			text-align: justify;
+  			margin: 10px 0px 0px 0px;
+  		}
+
+  		div.example3 {
+			border-style: solid;
+			width: 275px;
+  			padding: 10px;
+  			text-align: justify;
+  			margin: auto;
+  			display: block;
+  			//border-image: url("images/dot.png") repeat;
+  			//-moz-border-image: url("images/dot.png") 11 11 11 11 round;
+  			border-radius: 10px;
+  		}
+
+  		div.circle {
+  			border-style: solid;
+  			width: 75px;
+  			height: 75px;
+  			border-radius: 40px;  			
+  			margin: 10px 10px 10px 10px;
+  			text-align: center;  			
+  		}
+
+  		div.one{
+  			width: 75px;
+  			height: 75px;
+  			border-style: solid;
+  			border-radius: 40px 0px 40px 0px;
+  			text-align: center;
+  		}
+
+  		div.two{
+  			width: 75px;
+  			height: 75px;
+  			border-style: solid;
+  			border-radius: 0px 40px 0px 40px;  			
+  			text-align: center;
+  		}
+
+  		div.three{
+  			width: 75px;
+  			height: 75px;
+  			border-style: solid;
+  			border-radius: 0px 40px 0px 40px;  			
+  			text-align: center;
+  		}
+
+  		div.four{
+  			width: 75px;
+  			height: 75px;
+  			border-style: solid;
+  			border-radius: 40px 0px 40px 0px; 
+  			text-align: center;
+  		}
+
+  		li {
+  			border-style: solid;  			
+  			display: inline;
+  			margin-right: 10px;
+  		}
+
+		li.coming-soon {
+  			//display: none;
+  			visibility: hidden;
+  		}
+
+	</style>
+</head>
+<body>
+	<p class="one">Hohner's "Clavinet" is essentially an electric clavichord.</p>
+	<p class="two">Hohner's "Clavinet" is essentially an electric clavichord.</p>
+	<p class="three">Hohner's "Clavinet" is essentially an electric clavichord.</p>
+	<p class="four">Hohner's "Clavinet" is essentially an electric clavichord.</p>
+	<p class="five">Hohner's "Clavinet" is essentially an electric clavichord.</p>
+	
+	<div class="example1">Analog synths produce a wave sound, whereas the sounds stored on a digital synth have been sampled and then turned into numbers.</div>
+	<div class="example2">Analog synths produce a wave sound, whereas the sounds stored on a digital synth have been sampled and then ... </div>
+	<div class="example3">Analog synths produce a wave sound, whereas the sounds stored on a digital synth have been sampled and then ... </div>
+	<div class="circle">Goal</div>
+
+	<div class="one">1</div>
+	<div class="two">2</div>
+	<div class="three">3</div>
+	<div class="four">4</div>
+
+	<ul>
+		<li>Home</li>
+		<li>Products</li>
+		<li class="coming-soon">Coming Soon</li> 
+		<li>About</li>
+		<li>Contact</li>
+	</ul>
+</body>
+</html>

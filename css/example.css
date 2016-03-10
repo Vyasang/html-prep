@@ -1,0 +1,40 @@
+/* body {
+    font-family: arial;
+    background-color: rgb(185,179,175);
+}
+
+h1 {
+    color: rgb(255,255,255);
+} */
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+}
+/* 
+h1, h2 {
+	color: #EE613E;
+}
+
+p {
+	color: #665544;
+} */
+
+
+/* h1 {
+  color: DarkCyan;}
+
+h2 {
+  color: #ee3e80;}
+
+p{
+color: rgb(100,100,90);} */
+
+body {
+  //background-color: rgb(200,200,200);
+}
+h1 {
+  background-color: DarkCyan;}
+h2 {
+  background-color: #ee3e80;}
+p{
+background-color: white;}

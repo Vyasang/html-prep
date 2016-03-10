@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+<form action="http://www.example.com/profile.php"> <p>Do you play any of the following instruments?
+(You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+<p>What device do you listen to music on?</p> <select name="devices">
+<option value="ipod">iPod</option> <option value="radio">Radio</option> <option value="computer">Computer</option>
+  </select>
+  <hr />
+  <select name="instruments" size="3" 
+    multiple="multiple">
+    <option value="guitar" selected="selected">
+Guitar</option>
+<option value="drums">Drums</option> <option value="keyboard"
+selected="selected">Keyboard</option> <option value="bass">Bass</option>
+  </select>
+  <p>Subscribe to our email list:</p>
+<input type="text" name="email" />
+<input type="image" src="images/subscribe.png"
+    width="100" height="30" />
+
+    <button><img src="images/add_to_cart.gif" alt="add" width="100" height="30" /> Add</button>
+<fieldset>
+<legend>Contact details</legend> 
+<label>Email:<br /><input type="text" name="email" /></label><br /> 
+<label>Mobile:<br /><input type="text" name="mobile" /></label><br /> 
+<label>Telephone:<br /><input type="text" name="telephone" /></label><br />
+<label for="username">Departure date:</label> <input type="date" name="depart" /><br />
+<p>Please enter your email address:</p>
+<input type="email" name="email" /> <br />
+<p>Please enter your website address:</p> <input type="url" name="website" /> <br />
+<p>Search:</p>
+<input type="search" name="search" placeholder="Enter keyword" /> <input type="submit" value="Search" /><br />
+</form>
+
+<hr />
+
+<form action="http://www.example.com/review.php" method="get">
+      <fieldset>
+        <legend>
+          Your Details:
+        </legend>
+        <label>
+Name:
+          <input type="text" name="name" size="30" maxlength="100">
+        </label>
+        <br />
+        <label>
+Email:
+          <input type="email" name="email" size="30" maxlength="100">
+        </label>
+        <br />
+      </fieldset>
+      <br />
+      <fieldset>
+<legend>
+Your Review:
+        </legend>
+        <p>
+          <label for="hear-about">
+            How did you hear about us?
+          </label>
+          <select name="referrer" id="hear-about">
+<option value="google">Google</option> <option value="friend">Friend</option> <option value="advert">Advert</option> <option value="other">Other</option>
+          </select>
+        </p>
+<p>
+Would you visit again?
+          <br />
+          <label>
+            <input type="radio" name="rating" value="yes" />
+Yes
+          </label>
+          <label>
+            <input type="radio" name="rating" value="no" />
+No
+          </label>
+          <label>
+            <input type="radio" name="rating" value="maybe" />
+Maybe
+          </label>
+        </p>
+        <p>
+          <label for="comments">
+Comments:
+          </label>
+          <br />
+          <textarea rows="4" cols="40" id="comments">
+          </textarea>
+</p> <label>
+          <input type="checkbox" name="subscribe" checked="checked" />
+          Sign me up for email updates
+        </label>
+        <br />
+        <input type="submit" value="Submit review" />
+      </fieldset>
+    </form>
+</body>
+</html>

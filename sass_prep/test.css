@@ -1,0 +1,80 @@
+.content-navigation {
+    border-color: #3bbfce;
+    color: #2b9eab;
+}
+
+.border {
+    padding: 8px;
+    margin: 8px;
+    border-color: #3bbfce;
+}
+
+table.hl {
+    margin: 2em 0;
+}
+
+table.hl td.ln {
+    text-align: right;
+}
+
+li {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/*#data {
+  @include table-base;
+}*/
+
+#square-1 {
+    background-color: red;
+    width: 50px;
+    height: 120px;
+}
+
+#square-2 {
+    background-color: red;
+    width: 100px;
+    height: 60px;
+}
+
+#square-3 {
+    background-color: red;
+    width: 150px;
+    height: 40px;
+}
+
+#data {
+    float: left;
+    margin-left: 10px;
+}
+
+#data th {
+    text-align: center;
+    font-weight: bold;
+}
+
+#data td,
+#data th {
+    padding: 2px;
+}
+
+.error,
+.badError {
+    border: 1px #f00;
+    background: #fdd;
+}
+
+.error.intrusion,
+.intrusion.badError {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.badError {
+    border-width: 3px;
+}
+
+
+/*# sourceMappingURL=test.css.map */
